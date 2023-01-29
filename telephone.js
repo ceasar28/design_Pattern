@@ -46,7 +46,7 @@ class Observer {
   constructor() {}
 
   Update(phoneNumber) {
-    console.log(`Now dialling  +${phoneNumber}`);
+    console.log(`Now dialing  +${phoneNumber}`);
   }
 }
 
@@ -54,7 +54,7 @@ class Observer2 {
   constructor() {}
 
   Update(phoneNumber) {
-    console.log(`Dialling Notification  +${phoneNumber}`);
+    console.log(`Dialing Notification  +${phoneNumber}`);
   }
 }
 
