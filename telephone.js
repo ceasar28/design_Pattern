@@ -1,3 +1,4 @@
+// creating a Telephone class
 class Telephone {
   constructor() {
     this.phoneNumbers = new Set();
@@ -58,7 +59,7 @@ class Observer2 {
 }
 
 const tel = new Telephone();
-tel.AddPhoneNumber(23470876542341);
+tel.AddPhoneNumber(2347064350087);
 
 const observer = new Observer();
 tel.AddObserver(observer);
@@ -66,8 +67,7 @@ tel.AddObserver(observer);
 const observer2 = new Observer2();
 tel.AddObserver(observer2);
 
-tel.DialPhoneNumber(23470876542341);
+tel.DialPhoneNumber(2347064350087);
 
-//notifyObservers(phoneNumber)
-// Output: Now dialling +23470876542341
-// Output: Dialling Notification +23470876542341
+/** Output: Now dialling +2347064350087
+ Output: Dialling Notification +2347064350087 **/
